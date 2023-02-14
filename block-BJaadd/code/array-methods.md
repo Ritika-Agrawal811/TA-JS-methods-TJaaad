@@ -25,10 +25,10 @@ Example:
      ```js
      let numbers = [1, 2, 3];
      numbers.concat(4); //[1,2,3,4]
-     let sentanceArray = 'A quick brown fox jumped over a lazy'.split(' ');
-     sentanceArray.concat('dog').join(' '); //"A quick brown fox jumped over a lazy dog"
-     let colors = ['red', 'green', 'blue'];
-     colors.concat('black', 'red', 21, true); // ['red','green','blue','black', 'red', 21, true]
+     let sentanceArray = "A quick brown fox jumped over a lazy".split(" ");
+     sentanceArray.concat("dog").join(" "); //"A quick brown fox jumped over a lazy dog"
+     let colors = ["red", "green", "blue"];
+     colors.concat("black", "red", 21, true); // ['red','green','blue','black', 'red', 21, true]
      ```
    - `concat` accepts n number of values and returns one array with all the values in same order. It does not change the original array.
    - No it does not mutate the original array
