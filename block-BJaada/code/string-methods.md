@@ -22,18 +22,48 @@ Example:
    - Return: character at specific index in the string (string data type)
    - Example:
      ```js
-     let name = 'Arya Stark';
+     let name = "Arya Stark";
      name.charAt(2); //"y"
-     let sentance = 'A quick brown fox jumped over a lazy dog';
+     let sentance = "A quick brown fox jumped over a lazy dog";
      sentance(4); // "i"
-     let houseName = 'Starks';
+     let houseName = "Starks";
      houseName.charAt(0); // "S"
      ```
    - `charAt` accepts a index (number data type) and return the character on that index in the string.
 
 2. `toUpperCase`
+
+- Parameter: no parameter
+  - Return: the uppercase of string (string data type)
+  - Example:
+    ```js
+    let name = "Arya Stark";
+    name.toUpperCase(); //"ARYA STARK"
+    ```
+  - `toUpperCase` returns the string in uppercase.
+
 3. `toLowerCase`
+
+- Parameter: no parameter
+  - Return: the lowercase of string (string data type)
+  - Example:
+    ```js
+    let name = "Arya Stark";
+    name.toLowerCase(); //"arya stark"
+    ```
+  - `toLowerCase` returns the string in lowercase.
+
 4. `trim`
+
+- Parameter: no parameter
+  - Return: the string removing its trailing spaces(string data type)
+  - Example:
+    ```js
+    let name = "  Arya Stark  ";
+    name.trim(); //"Arya Stark"
+    ```
+  - `trim` the string removing its trailing spaces.
+
 5. `trimEnd`
 6. `trimStart`
 7. `concat`
